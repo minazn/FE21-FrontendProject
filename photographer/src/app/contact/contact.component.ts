@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { Renderer2 } from '@angular/core';
+import { connectableObservableDescriptor } from 'rxjs/internal/observable/ConnectableObservable';
 
 @Component({
   selector: 'app-contact',
@@ -6,10 +9,29 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
-
-  constructor() { }
-
+  info = new FormGroup ({
+    name : new FormControl("",Validators.required),
+    email: new FormControl("",Validators.required),
+    text: new FormControl("",Validators.required)
+    
+  })
+  constructor(private renderer:Renderer2) { }
+  
   ngOnInit(): void {
   }
+  
+  onSubmit() {
+    if(this.info.valid) {
+      var a = this.info.value;
+      console.log(a);
+      this.info.reset();
+    }
+  }
+  
+  
+  check :boolean = false;
 
+  addClass() {
+  this.check = true;
+  }
 }

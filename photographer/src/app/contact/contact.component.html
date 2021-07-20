@@ -1,1 +1,30 @@
-<p>contact works!</p>
+
+<div class="content" [class.sent]="check">
+  <form [formGroup]="info" (ngSubmit) = "onSubmit()" class="mb-5 mt-5">
+<div class="wrapper centered">
+  <article class="letter">
+    <div class="side">
+      <h1>Contact us</h1>
+      <p>
+        <textarea placeholder="Your message" formControlName="text"></textarea>
+      </p>
+    </div>
+    <div class="side">
+      <p>
+        <input formControlName="name" type="text" placeholder="Your name" >
+      </p>
+      <p>
+        <input formControlName="email" type="email" placeholder="Your email" >
+      </p>
+      <p>
+        <button id="sendLetter" type="submit" (click)="addClass()">Send</button>
+      </p>
+    </div>
+  </article>
+  <div class="envelope front"></div>
+  <div class="envelope back"></div>
+</div>
+</form>
+<p class="result-message centered text-center">Thank you for your message!</p>
+</div>
+

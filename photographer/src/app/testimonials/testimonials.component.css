@@ -1,0 +1,16 @@
+.col {
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.photo {
+    margin-top: 2%;
+    border-radius: 90px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 2%;
+}
+
+.name {
+    padding-left: 2%;
+}

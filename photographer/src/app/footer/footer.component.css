@@ -1,3 +1,8 @@
+.myfooter{
+    position: relative;
+    top: 50vh;
+}
+
 .bottom {
     padding-bottom: 10px;
 }

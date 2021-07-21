@@ -1,3 +1,15 @@
+.mycontainer{
+    padding: 5em;
+}
+
+.color{
+    color: #E4EAF2;
+}
+
+.mytext{
+    padding: 0 5em 0 5em;
+}
+
 .div .p {
-    
+    padding: 0 20em 0 10em;
 }

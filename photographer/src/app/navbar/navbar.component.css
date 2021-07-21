@@ -10,3 +10,8 @@
   background-size: cover;
   height: 500px;
 }
+
+#navbarDropdown{
+  color: white;
+  font-size: 20pt;
+}

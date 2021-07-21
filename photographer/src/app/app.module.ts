@@ -6,8 +6,9 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
-import { PhotosComponent } from './photos/photos.component';
 
+import { AboutMeComponent } from './about-me/about-me.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -15,13 +16,12 @@ import { PhotosComponent } from './photos/photos.component';
     NavbarComponent,
     PortfolioComponent,
     ContactComponent,
-    PhotosComponent
+
+    AboutMeComponent,
+    TestimonialsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

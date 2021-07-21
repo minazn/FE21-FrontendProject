@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Scheherazade&display=swap');
+
 body{
     background-color: #D9D7D7;
 }
@@ -9,8 +12,10 @@ button{
 
 .mytitle{
     color: #D9D7D7;
+    font-family: 'Cinzel Decorative', cursive;;
 }
 
 .mytext{
     color: #E4EAF2;
+    font-family: 'Scheherazade', serif;
 }

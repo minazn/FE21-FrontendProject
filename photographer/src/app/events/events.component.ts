@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Events } from '../images';
-import { ShowgalleryService } from '../showgallery.service';
 
 @Component({
   selector: 'app-events',
@@ -13,8 +12,7 @@ export class EventsComponent implements OnInit {
   gallery = "";
   
 
-  constructor(private SG:ShowgalleryService) { 
-     this.gallery= this.SG.showGallery(this.pics);
+  constructor() { 
   }
   
   

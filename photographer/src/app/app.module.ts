@@ -17,7 +17,7 @@ import { UrbanComponent } from './urban/urban.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { CustomerComponent } from './customer/customer.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
-
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -35,6 +35,7 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     AboutMeComponent,
     CustomerComponent,
     TestimonialsComponent,
+    FooterComponent
 
   ],
   imports: [

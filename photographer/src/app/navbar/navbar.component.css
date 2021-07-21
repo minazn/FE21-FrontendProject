@@ -15,3 +15,20 @@
   color: white;
   font-size: 20pt;
 }
+
+.mydropdown{
+  background-color: #594A3C;
+}
+
+#subtitle-navbar{
+  font-size: 30pt;
+}
+
+#title-navbar{
+  font-size: 60pt;
+  color: #594A3C;
+}
+
+.navbar-hero span{
+  color: E4EAF2;
+}

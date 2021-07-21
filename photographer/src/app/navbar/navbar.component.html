@@ -2,8 +2,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent shadow">
         <div class="container-fluid">
             <div class="row">
-                <a class="navbar-brand col-12" routerLink="">John Doe</a>
-                <a class="navbar-brand col-12">Fine Art Photography</a>
+                <a class="navbar-brand col-12 mytitle" routerLink="">John Doe</a>
+                <a class="navbar-brand col-12 mytitle">Fine Art Photography</a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -11,38 +11,38 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
                 <div class="nav-item dropdown">
-                    <span class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="nav-link dropdown-toggle mytitle" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
             Gallery
           </span>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <ul class="dropdown-menu mydropdown" aria-labelledby="navbarDropdown">
                         <li>
-                            <a class="dropdown-item" routerLink="/gallery/nature">Nature</a>
+                            <a class="dropdown-item mytitle" routerLink="/gallery/nature">Nature</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" routerLink="/gallery/wedding">Wedding</a>
+                            <a class="dropdown-item mytitle" routerLink="/gallery/wedding">Wedding</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" routerLink="/gallery/urban">Urban life</a
+                            <a class="dropdown-item mytitle" routerLink="/gallery/urban">Urban life</a
               >
             </li>
             <li>
-              <a class="dropdown-item" routerLink="/gallery/people">People</a>
+              <a class="dropdown-item mytitle" routerLink="/gallery/people">People</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" routerLink="/gallery/events">Events</a>
+                            <a class="dropdown-item mytitle" routerLink="/gallery/events">Events</a>
                         </li>
                     </ul>
                 </div>
                 <span class="navbar-text">
-          <a class="navbar-brand" routerLink="about">About</a>
-          <a class="navbar-brand" routerLink="contact">Get in Touch</a>
+          <a class="navbar-brand mytitle" routerLink="about">About</a>
+          <a class="navbar-brand mytitle" routerLink="contact">Get in Touch</a>
         </span>
             </div>
         </div>
     </nav>
 
     <div class="text text-center text-white mt-5">
-        <h2>Inspiring Photography</h2>
-        <p>Photos Full Of Energy & Passion</p>
+        <h2 class="mytitle" id="title-navbar">Inspiring <span>Photography</span> </h2>
+        <p class="mytext" id="subtitle-navbar">Photos Full Of Energy & Passion</p>
     </div>
 </div>

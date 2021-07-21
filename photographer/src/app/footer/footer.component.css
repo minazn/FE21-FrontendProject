@@ -29,9 +29,17 @@ p {
 
 p,
 a {
-    font-size: 0.8rem;
+    font-size: 1.5rem;
 }
 
 h2 {
     padding-bottom: 20px;
+}
+
+.text {
+    font-family: "Scheherazade", serif;
+}
+
+.title {
+    font-family: "Cinzel Decorative", cursive;
 }

@@ -8,6 +8,22 @@
     background-size: 100% 100%;
 }
 
-.mytext {
+.myText {
     text-align: justify;
+}
+
+.text {
+    font-family: "Scheherazade", serif;
+    font-size: 18pt;
+}
+
+.title {
+    font-family: "Cinzel Decorative", cursive;
+}
+
+@media screen and (max-width: 575px) {
+    .text {
+        font-size: 1.2rem;
+        text-align: left;
+    }
 }

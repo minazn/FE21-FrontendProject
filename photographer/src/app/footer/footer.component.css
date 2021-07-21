@@ -1,0 +1,32 @@
+.bottom {
+    padding-bottom: 10px;
+}
+
+.image {
+    width: 10%;
+}
+
+@media screen and (max-width: 576px) {
+    .image {
+        width: 8%;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #e4eaf2;
+}
+
+h2,
+p {
+    color: #d9d7d7;
+}
+
+p,
+a {
+    font-size: 0.8rem;
+}
+
+h2 {
+    padding-bottom: 20px;
+}

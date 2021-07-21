@@ -7,8 +7,6 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
-
-import { GalleryComponent } from './gallery/gallery.component';
 import { NatureComponent } from './nature/nature.component';
 import { EventsComponent } from './events/events.component';
 import { WeddingComponent } from './wedding/wedding.component';
@@ -25,11 +23,8 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     PortfolioComponent,
     ContactComponent,
-
     AboutMeComponent,
     TestimonialsComponent,
-
-    GalleryComponent,
     NatureComponent,
     EventsComponent,
     WeddingComponent,

@@ -13,3 +13,12 @@
 .div .p {
     padding: 0 20em 0 10em;
 }
+
+@media only screen and (max-width: 600px) {
+    .mytext {
+      padding: 0;
+    }
+    .div .p {
+        padding: 0;
+    }
+  }

@@ -23,7 +23,7 @@
     width: calc(10vh + 8px);
     height: calc(10vh + 8px);
     position: relative;
-    top: 30vh;
+    top: 40vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

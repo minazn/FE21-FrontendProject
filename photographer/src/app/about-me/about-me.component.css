@@ -27,3 +27,19 @@
         text-align: left;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .text-about {
+        text-align: left;
+        font-size: 1.4rem;
+    }
+    .text {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .text-about {
+        text-align: left;
+    }
+}

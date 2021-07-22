@@ -1,11 +1,20 @@
-.myfooter{
+.myfooter {
     position: relative;
     top: 50vh;
 }
 
 .bottom {
+    padding-bottom: 20px;
+}
+
+.bottom-img {
     padding-bottom: 10px;
 }
+
+
+/* .bottom-a {
+    padding-bottom: 3%;
+} */
 
 .image {
     width: 10%;
@@ -33,7 +42,7 @@ a {
 }
 
 h2 {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .text {

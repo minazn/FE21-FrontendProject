@@ -9,26 +9,43 @@ import { PeopleComponent } from './people/people.component';
 import { UrbanComponent } from './urban/urban.component';
 import { WeddingComponent } from './wedding/wedding.component';
 
-const routes: Routes = [{
-  path: "", component : PortfolioComponent
-}, {
-  path: "contact", component : ContactComponent
-},{
-  path: "about", component: AboutMeComponent
-},{
-  path: "gallery/events", component: EventsComponent
-},{
-  path: "gallery/nature", component: NatureComponent
-},{
-  path: "gallery/people", component: PeopleComponent
-},{
-  path: "gallery/urban", component: UrbanComponent
-},{
-  path: "gallery/wedding", component: WeddingComponent
-}];
+const routes: Routes = [
+  {
+    path: '',
+    component: PortfolioComponent,
+  },
+  {
+    path: 'contact',
+    component: ContactComponent,
+  },
+  {
+    path: 'about',
+    component: AboutMeComponent,
+  },
+  {
+    path: 'gallery/events',
+    component: EventsComponent,
+  },
+  {
+    path: 'gallery/nature',
+    component: NatureComponent,
+  },
+  {
+    path: 'gallery/people',
+    component: PeopleComponent,
+  },
+  {
+    path: 'gallery/urban',
+    component: UrbanComponent,
+  },
+  {
+    path: 'gallery/wedding',
+    component: WeddingComponent,
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

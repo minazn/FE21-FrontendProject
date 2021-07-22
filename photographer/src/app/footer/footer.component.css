@@ -1,6 +1,6 @@
 .myfooter {
     position: relative;
-    top: 60vh;
+    top: 70vh;
 }
 
 .bottom {
@@ -10,11 +10,6 @@
 .bottom-img {
     padding-bottom: 10px;
 }
-
-
-/* .bottom-a {
-    padding-bottom: 3%;
-} */
 
 .image {
     width: 10%;

@@ -1,4 +1,4 @@
-.mycontainer{
+#homesection{
     padding: 5em;
 }
 
@@ -6,19 +6,32 @@
     color: #E4EAF2;
 }
 
-.mytext{
-    padding: 0 5em 0 5em;
-}
 
 .div .p {
     padding: 0 20em 0 10em;
 }
 
+#gallery-title{
+    font-weight: bold;
+}
+
+#accordion img{
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 600px) {
-    .mytext {
-      padding: 0;
+    #homesection{
+        padding: 2em 0 5em 0;
     }
-    .div .p {
-        padding: 0;
+
+    #homesection-img{
+        display: none;
     }
+  }
+
+  @media only screen and (min-width: 600px) and (max-width: 1199px){
+    #homesection-img{
+        display: none;
+    }
+
   }

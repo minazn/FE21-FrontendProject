@@ -5,13 +5,23 @@ body{
     background-color: #D9D7D7;
 }
 
+.mysection{
+    background-color: #594A3C;
+}
+
 button{
     background-color: #D9D7D7;
     color: #594A3C;
+    font-family: 'Scheherazade', serif;
 }
 
 .mytitle{
     color: #D9D7D7;
+    font-family: 'Cinzel Decorative', cursive;;
+}
+
+.my-dark-title{
+    color: #594A3C;
     font-family: 'Cinzel Decorative', cursive;;
 }
 

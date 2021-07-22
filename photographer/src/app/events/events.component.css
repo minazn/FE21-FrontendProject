@@ -106,12 +106,14 @@
   }
   
   @media only screen and (min-width: 768px) and (max-width: 1199px) {
-    .content img {
-      width: 80%;
-      height: 100vh;
-    }
-    .mysmallcontainer {
+    .mycontainer {
       display: none !important;
+    }
+    .mysmallcontainer img {
+      max-width: 100%;
+    }
+    .mysmallcontainer{
+      margin-bottom: -40vh;
     }
   }
   
@@ -122,5 +124,11 @@
     .mysmallcontainer img {
       max-width: 100%;
     }
+
+    .mysmallcontainer{
+      margin-bottom: -40vh;
+    }
   }
   /*# sourceMappingURL=gallery.component.css.map */
+
+

@@ -29,6 +29,36 @@
   color: #594A3C;
 }
 
-.navbar-hero span{
-  color: E4EAF2;
+#photography{
+  color: #E4EAF2;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px){
+
+  #title-navbar{
+    font-size: 45pt;
+  }
+
+  #photography{
+    font-size: 30pt;
+  }
+
+  #subtitle-navbar{
+    font-size: 20pt;
+  }
+}
+
+/* xtra small */
+@media only screen and (max-width: 359px) {
+  #title-navbar{
+    font-size: 35pt;
+  }
+
+  #photography{
+    font-size: 20pt;
+  }
+
+  #subtitle-navbar{
+    font-size: 15pt;
+  }
 }

@@ -1,52 +1,66 @@
-<div class="container text-center mt-5 mb-4 mycontainer" style="background-color: #594A3C">
+<div class="container text-center mt-5 mysection" id="homesection">
 
-<h3 class="mb-5 color"> Fine-Art Photographer Vienna, Austria</h3>
-<p class="mytext">
-Dr Colin Vickers is an English fine-art photographer living in Vienna, Austria and is widely recognised as one of the world's leading fine-art nude photographers today. The emotions his pieces convey are rarely found in this genre especially considering he rarely shows faces in his pieces. His pieces are often minimalistic yet complicated and often toned with old-fashioned hues.
+  <h3 class="mb-5 color mytitle"> Fine-Art Photographer Vienna</h3>
+  <div class="d-flex align-items-center">
+    <div>
+      <p class="mytext ms-5 me-5">
+        John Doe is an English fine-art photographer living in Vienna, Austria and is widely recognised as one of
+        the world's leading fine-art nude photographers today. The emotions his pieces convey are rarely found in this
+        genre
+        especially considering he rarely shows faces in his pieces. His pieces are often minimalistic yet complicated
+        and
+        often toned with old-fashioned hues. <br><br>
 
-'I see myself as a minimalist and a perfectionist and I think this shows a lot in my work. I am heavily influenced by modern fine-art nude photographers and also by the Renaissance masters, and I inspire to bring these two genres together in order to create unique and timeless masterpieces that will look incredible on anyone's living-room wall.'
-
-Colin was born in Lincoln, England in 1975 and moved to London at the age of 18 where he obtained his undergraduate and doctorate degree at Imperial College. In 2003, he moved to Vienna and fell in love with the city. In 2009, he opened his studio in Vienna's 7th district and has been working there ever since.
-
-'Most of my subjects are normal people, like you and me, and I aspire to bring their personalities into my pieces. I feel this gives my photos a very personal and emotional connection.'
-
-Colin's art started to gain attention in 2010 with his first exhibition and, since then, he has won many international awards. His work has been featured in many magazines and can be found on display at many locations in Vienna. He is available for sittings and commissioned work and often gives workshops for local photographers/artists.</p>
-
-<button class="btn" routerLink="contact">Get In Touch</button>
-
-<hr>
-
-<h3 class="mb-5 mt-5">GREAT PHOTOS, HAPPY CLIENTS</h3>
-
-<p class="mytext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsa iusto amet non, accusantium a ipsum ratione incidunt officiis vel voluptatum, deleniti aut, ducimus voluptatem distinctio quos voluptatibus repellendus quaerat! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio quo aliquid quibusdam assumenda illo doloremque, hic nostrum voluptates impedit molestiae similique quasi dignissimos expedita quaerat labore fugiat repellendus facilis. Numquam?</p>
-
-<button class="btn" routerLink="contact">Get In Touch</button>
-<hr>
-<i class="fab fa-instagram"></i>
-</div>
-
-<div class="container" id="accordion">
-    <div class="card">
-      <img routerLink="/gallery/events" src="./../../assets/imgs/Events/event4.jfif">
-      <div class="card__head">Events</div>
+        'Most of my subjects are normal people, like you and me, and I aspire to bring their personalities into my
+        pieces. I
+        feel this gives my photos a very personal and emotional connection.'
+      </p>
+      <button class="btn mt-3" routerLink="contact">Get In Touch</button>
     </div>
-    <div class="card">
-      <img routerLink="/gallery/nature" src="./../../assets/imgs/Nature/animals4.jfif">
-      <div class="card__head">Nature</div>
-    </div>
-    <div class="card">
-      <img routerLink="/gallery/people" src="./../../assets/imgs/People/people5.jfif">
-      <div class="card__head">People</div>
-    </div>
-    <div class="card">
-      <img routerLink="/gallery/urban" src="./../../assets/imgs/Urban/urban3.jfif">
-      <div class="card__head">Urban</div>
-    </div>
-    <div class="card">
-      <img routerLink="/gallery/wedding" src="./../../assets/imgs/Wedding/wedding5.jfif">
-      <div class="card__head">Wedding</div>
-    </div>
+    <img class="me-5 ms-5" id="homesection-img" src="./../../assets/imgs/People/people1.jfif" alt="">
   </div>
 
-  
-  <app-customer></app-customer>
+
+
+  <hr>
+
+  <h3 class="mb-5 mt-5 mytitle">GREAT PHOTOS, HAPPY CLIENTS</h3>
+
+  <p class="mytext ms-5 me-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsa iusto amet non,
+    accusantium a
+    ipsum ratione incidunt officiis vel voluptatum, deleniti aut, ducimus voluptatem distinctio quos voluptatibus
+    repellendus quaerat! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio quo aliquid quibusdam assumenda
+    illo doloremque, hic nostrum voluptates impedit molestiae similique quasi dignissimos expedita quaerat labore fugiat
+    repellendus facilis. Numquam?</p>
+
+  <button class="btn mt-3" routerLink="contact">Get In Touch</button>
+</div>
+
+<h3 class="mb-5 mt-5 my-dark-title text-center" id="gallery-title">Gallery</h3>
+
+<div class="container" id="accordion">
+  <div class="card">
+    <img routerLink="/gallery/events" src="./../../assets/imgs/Events/event4.jfif">
+    <div class="card__head">Events</div>
+  </div>
+  <div class="card">
+    <img routerLink="/gallery/nature" src="./../../assets/imgs/Nature/animals4.jfif">
+    <div class="card__head">Nature</div>
+  </div>
+  <div class="card">
+    <img routerLink="/gallery/people" src="./../../assets/imgs/People/people5.jfif">
+    <div class="card__head">People</div>
+  </div>
+  <div class="card">
+    <img routerLink="/gallery/urban" src="./../../assets/imgs/Urban/urban3.jfif">
+    <div class="card__head">Urban</div>
+  </div>
+  <div class="card">
+    <img routerLink="/gallery/wedding" src="./../../assets/imgs/Wedding/wedding5.jfif">
+    <div class="card__head">Wedding</div>
+  </div>
+</div>
+
+
+<app-customer></app-customer>
+<app-testimonials></app-testimonials>

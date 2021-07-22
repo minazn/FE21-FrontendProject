@@ -1,4 +1,4 @@
-.btn {
+  .btn {
   background-color: #D9D7D7;
   color: #594A3C;
 }
@@ -17,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;
   }
-  
+  @media only screen and (min-width: 601px) {
  #accordion {
     display: flex;
     justify-content: center;
@@ -72,3 +72,12 @@ body {
       }
     }
   }
+}
+@media only screen and (max-width: 600px) {
+
+  .card__head {
+    color: black;
+    background: #8C7F77;
+  }
+
+}
